@@ -83,6 +83,7 @@ body {
 #catagory {
   width: 100%;
   display: flex;
+  border: 0.5px solid #f4f4f4;
 }
 
 .category-btn {
@@ -90,6 +91,16 @@ body {
   padding: 15px 0px;
   font-size: 25px;
   width: 33.33%;
+  border: 0;
+  color: white;
+  background-color: black;
+}
+.category-btn:hover {
+  background-color: red;
+}
+
+.category-active {
+  background-color: red;
 }
 #menu {
   padding: 5%;
@@ -101,10 +112,16 @@ body {
 .product {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
   color: black;
   border-bottom: 2px solid gray;
   margin: 0 20px;
+}
+.product-price {
+  background-color: #a4a4a4;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 #about {

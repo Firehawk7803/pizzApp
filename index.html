@@ -13,15 +13,27 @@
     <div id="main-area">
       <h1 class="main-text">THIN</h1>
       <h1 class="main-text">CRUST PIZZA</h1>
-      <a class="main-btn" href="">LET ME SEE THE MENU</a>
+      <a class="main-btn" href="#menu">LET ME SEE THE MENU</a>
     </div>
     <div id="menu">
       <h1 class="menu-title">MENU</h1>
       <div id="menu-content">
         <div id="catagory">
-          <button class="category-btn" onclick="onPizzaClick()">PIZZA</button>
-          <button class="category-btn" onclick="onSaladClick()">SALADES</button>
-          <button class="category-btn" onclick="onStarterClick()">
+          <button
+            class="category-btn category-active"
+            id="pizza-btn"
+            onclick="onPizzaClick()"
+          >
+            PIZZA
+          </button>
+          <button class="category-btn" id="salad-btn" onclick="onSaladClick()">
+            SALADES
+          </button>
+          <button
+            class="category-btn"
+            id="starter-btn"
+            onclick="onStarterClick()"
+          >
             STARTER
           </button>
         </div>
@@ -33,7 +45,7 @@
                 Fresh tomatoes, fresh mozzarella, fresh basil
               </h1>
             </div>
-            <h1 id="product1-price">12.20$</h1>
+            <h1 class="product-price" id="product1-price">12.20$</h1>
           </div>
           <div class="product">
             <div class="product-content">
@@ -42,7 +54,7 @@
                 Fresh tomatoes, fresh mozzarella, fresh basil
               </h1>
             </div>
-            <h1 id="product2-price">12.20$</h1>
+            <h1 class="product-price" id="product2-price">12.20$</h1>
           </div>
           <div class="product">
             <div class="product-content">
@@ -51,7 +63,7 @@
                 Fresh tomatoes, fresh mozzarella, fresh basil
               </h1>
             </div>
-            <h1 id="product3-price">12.20$</h1>
+            <h1 class="product-price" id="product3-price">12.20$</h1>
           </div>
         </div>
       </div>
