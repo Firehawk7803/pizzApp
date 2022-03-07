@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: fantasy;
+}
+#navbar {
+  width: 100vw;
+  height: 7vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+}
+#navbar:hover {
+  background-color: black;
+}
+.navbar-link {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 5px 10px;
+  height: 100%;
+}
+
+.navbar-link:hover {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+#main-area {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("pizza.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-text {
+  font-size: 80px;
+  color: white;
+}
+
+.main-btn {
+  text-decoration: none;
+  background-color: black;
+  color: #f4f4f4;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.main-btn:hover {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+#menu {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+.menu-title {
+  text-align: center;
+  margin: 30px 0px;
+  font-size: 50px;
+}
+
+#menu-content {
+  width: 70%;
+}
+#catagory {
+  width: 100%;
+  display: flex;
+}
+
+.category-btn {
+  margin: 0;
+  padding: 15px 0px;
+  font-size: 25px;
+  width: 33.33%;
+}
+#menu {
+  padding: 5%;
+}
+#products {
+  background-color: #f4f4f4;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: black;
+  border-bottom: 2px solid gray;
+  margin: 0 20px;
+}
+
+#about {
+  width: 100vw;
+  background-color: #793e3a;
+  padding: 5% 15%;
+  color: white;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cheff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cheff-photo {
+  width: 150px;
+  height: 150px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.hours-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.opening {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 15%;
+  background-color: #607d8b;
+  color: white;
+}
+.contact-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.contact-desc {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.contact-sub-title {
+  margin: 10px 0px;
+}
+
+.contact-input {
+  padding: 10px 15px;
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+.contact-btn {
+  padding: 15px 0;
+  font-size: 20px;
+  background-color: #f4f4f4;
+  border: 0;
+}
+
+.contact-btn:hover {
+  background-color: #e4e4e4;
+}
